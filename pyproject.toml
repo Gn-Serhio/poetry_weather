@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "weatherapp"
+version = "0.1.0"
+description = ""
+authors = ["Wirys89 <sergei_gn@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.2.3"
+mysql = "^0.0.3"
+
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^6.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

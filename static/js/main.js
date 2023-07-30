@@ -1,0 +1,1 @@
+function delNode(el){el.parentNode.parentNode.remove()}
